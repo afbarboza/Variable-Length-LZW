@@ -1,0 +1,22 @@
+Nome: Alex Frederico Ramos Barboza
+Número USP: 7986480
+
+Para a correta execução do programa, seu computador deverá ter instalado a JVM.
+
+Para a compilação:
+	Abra o projeto no NetBeans;
+	Clique em Limpar e Construir projeto (Shift+11, ícone do Martelo e Vassoura).
+
+Para a execução do programa:
+	-> no terminal, navegue até a pasta do projeto;
+	-> na pasta do projeto, vá no diretório dist;
+	-> execute da seguinte forma:
+		java -jar LZW.jar;
+	-> então execute a linha de comando do programa:
+		encode -i <nome do arquivo de entrada>.txt -o <nome do arquivo comprimido>.bin
+		ou
+		decode i <nome do arquivo comprimido>.bin -o <nome do arquivo>.txt
+	-> observação: certifique-se que o arquivo esteja no diretório do executável (ou seja, o .jar )
+	-> observação 2: caso execute a partir do NetBeans, certifique-se de que o arquivo esteja no diretorio raiz do projeto
+
+
